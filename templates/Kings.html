@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *
+    {
+        margin: 0px;
+    }
+    #header
+    {
+        background:linear-gradient(45deg,blue,white,green);
+        color:aqua;
+        align-content: center;
+        height: 40px;
+        width: auto;
+    }
+    #header:hover
+    {
+        text-decoration: underline;
+    }
+    #main_section
+    {
+        color:white;
+        background-color:palevioletred
+    }
+    #link
+    {
+        color:white;
+        align-;
+    
+        background-color:aqua;
+        
+    }
+    #link>button
+    {
+        background-color:lime;
+        text-decoration:none;
+        color:lime;
+        padding: 10px;
+    }
+    #link>button>a
+    {
+      color:white;
+      text-decoration: none;
+
+    }
+    #link>button>a:hover
+    {
+        text-decoration:underline;
+        box-shadow:  opx auto 10px blue;
+    }
+
+</style>
+
+<body>
+    <div id="header">
+   <center> <h1>About Kings in Two World Wars</h1></center>
+    </div>
+    <div id="main_section">
+    <p> In the years before the First World War, the great European powers were ruled by three first cousins: King George
+        V of Britain, Kaiser Wilhelm II of Germany, and Tsar Nicholas II of Russia. Together
+        they presided over the last years of dynastic Europe and the outbreak of the most destructive war the world had
+        ever seen, a war that set twentieth-century Europe on course to be the most violent continent in the history of the world.
+
+        Through brilliant and often darkly comic portraits of these men and their lives, 
+        their foibles and obsessions, Miranda Carter delivers the tragicomic story of Europe’s early 
+        twentieth-century aristocracy, a solipsistic world preposterously out of kilter with its times.In the years before the First World War,
+        the great European powers were ruled by three first cousins: King George V of Britain, Kaiser Wilhelm II of Germany,
+        and Tsar Nicholas II of Russia. Together, they presided over the last years of dynastic Europe and the outbreak of the most
+        destructive war the world had ever seen, a war that set twentieth-century Europe on course to be the most violent continent 
+        in the history of the world.
+        
+        Through brilliant and often darkly comic portraits of these men and their lives,
+        their foibles and obsessions, Miranda Carter delivers the tragicomic story of
+        Europe’s early twentieth-century aristocracy,
+        a solipsistic world preposterously out of kilter with its times.In the years before the First World War, the great
+        European powers were ruled by three first cousins: King George V of Britain,
+        Kaiser Wilhelm II of Germany, and Tsar
+        Nicholas II of Russia. Together, they presided over the last years of dynastic Europe and the outbreak of the most
+        destructive war the world had ever seen, a war that set twentieth-century Europe on course to be the most violent continent 
+        in the history of the world.
+        
+        Through brilliant and often darkly comic portraits of these men and their lives, 
+        
+        their foibles and obsessions, Miranda Carter delivers the tragicomic story
+        of Europe’s early twentieth-century aristocracy, 
+        a solipsistic world preposterously out of kilter with its times. </p>        
+        <center>
+            <div>
+                <img src="https://www.clearias.com/up/First-World-War.png"width="300px" height="300px"> 
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRGVAyYH-tLnSkIek4fBKgrVib9woJiCA9tA&usqp=CAU" width="300px" height="300px">
+            <br>
+            </div>
+        </div>
+        </center>
+        <center>
+            <div id="link">            
+                <button><a href="{% url 'hello:Second_World_War'%}">Back TO Second War</a></button>
+                <button><a href="{% url 'hi:First_World_War'%}">Back TO First War</a></button>
+                <h1>Copy Rights:&copy;2023</h1>
+                <h2>All rirhts are reserved &reg</h2>
+                <p>Developed and Maintained by <a href="#" style="color: deeppink;">Blessie</a></p>
+            </div>
+        </center>
+    
+    </body>
+</html>

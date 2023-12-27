@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *
+    {
+        margin: 0px;
+    }
+    #header
+    {
+        background:linear-gradient(45deg,yellow,deeppink,green);
+        color:white;
+        align-items: center;
+        height: 40px;
+        width: auto;
+    }
+    #header:hover
+    {
+        text-decoration: underline;
+        
+    }
+    #main_section
+    {
+        color:white;
+        background-color:blue;
+    }
+    #footer
+    {
+        color:white;
+       
+    
+        background-color:yellow;
+        
+    }
+    #footer>button
+    {
+        background-color:lime;
+        width:auto;
+        height:auto;
+        padding:8px;
+       
+
+    }
+    #footer>button>a
+    {
+      color:white;
+      text-decoration: none;
+
+    }
+    #footer>button>a:hover
+    {
+        text-decoration:underline;
+        border: 0px 20px auto solid;
+        box-shadow:  opx auto 10px blue;
+    }
+
+</style>
+<body>
+    <div id="header">
+    <center><h1>About First World War</h1></center>
+    </div>
+    <div id="main_section">
+    <p >World War I, also known as the First World War or the Great War in historical contexts,
+        was a global conflict from 1914 to 1918. It was fought between two coalitions:
+        the Allied Powers and the Central Powers. Fighting took place throughout Europe, the Middle East, Africa, the Pacific, and parts of Asia.
+        World War I (WWI or WW1), also known as the First World War or the Great War in historical contexts, was a global conflict from 1914 to 1918. It was fought between two coalitions: the Allied Powers and the Central Powers. Fighting took place throughout Europe, the Middle East, Africa, the Pacific, and parts of Asia. One of the deadliest wars in history, it resulted in an estimated 9 million soldiers dead and 23 million wounded, plus another 5 million civilian deaths from various causes. Millions more died as a result of genocide, and the war was a major factor in the 1918 Spanish flu pandemic.
+
+        The first decade of the 20th century saw increasing diplomatic tension between
+        the European great powers. This reached a breaking point on 28 June 1914, when a Bosnian Serb named
+        Gavrilo Princip assassinated Archduke Franz Ferdinand, heir to the Austro-Hungarian throne. 
+        Austria-Hungary held Serbia responsible, and declared war on 28 July. Russia came to Serbia's defence, and by 4 August,
+        ermany, France, and Britain were drawn into the war, with the Ottoman Empire joining in November of that same year.
+        The first decade of the 20th century saw increasing diplomatic tension between the European great powers. This reached 
+        a breaking point on 28 June 1914, when a Bosnian Serb named Gavrilo Princip assassinated Archduke Franz Ferdinand, heir to the
+        Austro-Hungarian throne. Austria-Hungary held Serbia responsible, and declared war on 28 July. Russia came to Serbia's defence, 
+        and by 4 August, Germany, France, and Britain were drawn into the war, with the Ottoman Empire joining in November of that same year.
+
+        Germany's strategy in 1914 was to first defeat France, then transfer forces to the Russian front.
+    However, this failed, and by the end of 1914, the Western Front consisted of a continuous
+    line of trenches stretching from the English Channel to Switzerland. The Eastern Front was more dynamic, 
+    but neither side could gain a decisive advantage, despite costly offensives. As the war expanded to more fronts,
+    Bulgaria, Romania, Greece, Italy and others joined in from 1915 onward.
+    In early 1917, the United States entered the war on the side of the Allies, and later the same year, the
+    Bolsheviks seized power in the Russian October Revolution, making peace with the Central Powers in early 1918.
+    Germany launched an offensive in the west in March 1918, and despite initial success,
+    it left the German Army exhausted and demoralised. A successful Allied counter-offensive later that year caused a collapse of 
+    the German frontline. By the end of 1918, Bulgaria, the Ottoman Empire and Austria-Hungary agreed to armistices with the Allies,
+    leaving Germany isolated. Facing revolution at home and with his army on the verge of mutiny,
+    Kaiser Wilhelm II abdicated on 9 November.
+    World War II in September 1939.</p>
+    
+    <center>
+        <div>
+          <img src="https://www.clearias.com/up/First-World-War.png"width="310px" height="310px"> 
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRGVAyYH-tLnSkIek4fBKgrVib9woJiCA9tA&usqp=CAU" width="310px" height="310px">
+          <br>
+        </div>
+        <div id="footer">
+          <button><a href="{% url 'hello:Second_World_War'%}">Second war</a></button>
+          <button><a href="{% url 'hello django:Kings'%}">Kings</a></button>
+          <h2>Copy Rights:&copy;2023</h2>
+         <small>All rirhts are reserved &reg</small>
+         <p>Developed and Maintained by <a href="#" style="color:blue">Blessie</a></p>
+       </div>
+       </center>       
+    
+</body>
+</html>
